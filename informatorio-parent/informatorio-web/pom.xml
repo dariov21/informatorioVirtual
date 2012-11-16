@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project 
+	xmlns="http://maven.apache.org/POM/4.0.0" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+	http://maven.apache.org/xsd/maven-4.0.0.xsd"
+>
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>org.informatorio.site</groupId>
+	<artifactId>informatorio-web</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<packaging>war</packaging>
+	<name>Informatorio Spring MVC Project</name>
+
+	<properties>		
+		<spring.version>3.1.0.RELEASE</spring.version>
+		<mockito.version>1.8.0-rc2</mockito.version>
+		<tomcat.version>7.0.0</tomcat.version>
+	</properties>
+
+	<dependencies>
+		<!-- Informatorio persist -->
+		<dependency>
+			<groupId>org.informatorio.site</groupId>
+			<artifactId>informatorio-persist</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+
+		<!-- core utils -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artefactId>
+			<version>${spring.version}</version>
+		</dependency>
+
+		<!-- expresion languaje -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-expression</artifactId>
+			<version>${spring.version}</version>
+		</dependecy>
+
+		<!-- Bean factory and JavaBeans utilities -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-aop<artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+
+		<!-- Application context  -->
+
+		<dependecy>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context-support</artifactId>
+			<version>${spring.version}</version>
+		</dependecy>
+
+		<!-- Transaction magnament abstraction -->
+		<dependecy>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-tx</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		
+		<!-- Web application development -->
+		<dependecy>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>${spring.version}</version>
+		</dependecy>
+
+		<!-- Spring MVC Servlet --> 
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+
+		<!-- Spring MVC Portlet -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc-portlet</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+
+		<!-- Mokito -->
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-all</artifactId>
+			<version>${mockito.version}</version>
+		</dependency>
+
+		<!-- Tomcat -->
+		<dependency>
+			<groupId>aorg.apache.tomcat</groupId>
+			<artifactId>tomcat-catalina</artifactId>
+			<version>${tomcat.version}</version>
+		</dependency>
+	</dependencies>
+
+	<repositories>
+		<repository>
+			<id>springsource-repo</id>
+			<name>SpringSource Repository</name>
+			<url>http://repo.springsource.org/release</url>
+		</repository>
+	</repositories>
+
+	<build>
+		<finalName>informatorio-web</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.0.2</version>
+				<configuration>
+					<source>${java.version}</source>
+					<target>${java.version}</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
