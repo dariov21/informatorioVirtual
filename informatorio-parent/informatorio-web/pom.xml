@@ -18,6 +18,7 @@
 		<spring.version>3.1.0.RELEASE</spring.version>
 		<mockito.version>1.8.0-rc2</mockito.version>
 		<tomcat.version>7.0.0</tomcat.version>
+		<java.version>1.7</java.version>
 	</properties>
 
 	<dependencies>
@@ -31,7 +32,7 @@
 		<!-- core utils -->
 		<dependency>
 			<groupId>org.springframework</groupId>
-			<artifactId>spring-core</artefactId>
+			<artifactId>spring-core</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
 
@@ -40,36 +41,36 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-expression</artifactId>
 			<version>${spring.version}</version>
-		</dependecy>
+		</dependency>
 
 		<!-- Bean factory and JavaBeans utilities -->
 		<dependency>
 			<groupId>org.springframework</groupId>
-			<artifactId>spring-aop<artifactId>
+			<artifactId>spring-aop</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
 
 		<!-- Application context  -->
 
-		<dependecy>
+		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context-support</artifactId>
 			<version>${spring.version}</version>
-		</dependecy>
+		</dependency>
 
 		<!-- Transaction magnament abstraction -->
-		<dependecy>
+		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-tx</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
 		
 		<!-- Web application development -->
-		<dependecy>
+		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-web</artifactId>
 			<version>${spring.version}</version>
-		</dependecy>
+		</dependency>
 
 		<!-- Spring MVC Servlet --> 
 		<dependency>
@@ -94,7 +95,7 @@
 
 		<!-- Tomcat -->
 		<dependency>
-			<groupId>aorg.apache.tomcat</groupId>
+			<groupId>org.apache.tomcat</groupId>
 			<artifactId>tomcat-catalina</artifactId>
 			<version>${tomcat.version}</version>
 		</dependency>

@@ -15,15 +15,15 @@
                 <version>3.8.1</version>
                 <scope>test</scope>
  	</dependency>
-	 <dependency>
-			<groupId>hibernate-annotations</groupId>
-			<artifactId>hibernate-annotations</artifactId>
-			<version>3.3.0.GA</version>
-	 </dependency>	 
-	 <dependency>
-			<groupId>hibernate-commons-annotations</groupId>
+	<dependency>
+		<groupId>org.hibernate</groupId>
+		<artifactId>hibernate-annotations</artifactId>
+		<version>3.5.6-Final</version>
+	</dependency>	 
+	<dependency>
+			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-commons-annotations</artifactId>
-			<version>3.0.0.GA</version>
+			<version>3.3.0.ga</version>
 	</dependency>
         <dependency>
                 <groupId>org.mockito</groupId>
