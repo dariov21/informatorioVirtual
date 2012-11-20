@@ -8,10 +8,10 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
   <packaging>pom</packaging>
   <name>Project</name>
   <modules>
-        <module>JBehave Groovy Stories</module>
-        <module>Model Object of Informatorio web site</module>
-        <module>Persiste Object of Informatorio Web site</module>
-	<module>Informatorio Spring MVC Project</module>
+        <module>informatorio-jbehave</module>
+        <module>informatorio-web</module>
+        <module>informatorio-persist</module>
+	<module>informatorio-model</module>
   </modules>
 
 
