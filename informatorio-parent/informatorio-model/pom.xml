@@ -5,7 +5,12 @@
   <groupId>org.informatorio.site</groupId>
   <artifactId>informatorio-model</artifactId>
   <version>1.0-SNAPSHOT</version>
-
+  <name>Model Object of Informatorio web site</name>
+ <parent>
+      <groupId>org.informatorio.site</groupId>
+      <artifactId>informatorio-parent</artifactId>
+      <version>1.0-SNAPSHOT</version>
+ </parent>
 
  <dependencies>
 
