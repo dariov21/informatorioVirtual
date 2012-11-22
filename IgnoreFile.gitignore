@@ -1,0 +1,3 @@
+#Ignoramos las carpetas "target".
+
+target/
