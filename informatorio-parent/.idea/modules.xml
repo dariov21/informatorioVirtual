@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/informatorio-jbehave/informatorio-jbehave.iml" filepath="$PROJECT_DIR$/informatorio-jbehave/informatorio-jbehave.iml" />
+      <module fileurl="file://$PROJECT_DIR$/informatorio-model/informatorio-model.iml" filepath="$PROJECT_DIR$/informatorio-model/informatorio-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/informatorio-parent.iml" filepath="$PROJECT_DIR$/informatorio-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/informatorio-persist/informatorio-persist.iml" filepath="$PROJECT_DIR$/informatorio-persist/informatorio-persist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/informatorio-web/informatorio-web.iml" filepath="$PROJECT_DIR$/informatorio-web/informatorio-web.iml" />
+    </modules>
+  </component>
+</project>
+
