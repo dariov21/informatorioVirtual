@@ -1,5 +1,5 @@
 package org.informatorio.site.model;
 
 
-public class Forum {
+public class Role {
 }
