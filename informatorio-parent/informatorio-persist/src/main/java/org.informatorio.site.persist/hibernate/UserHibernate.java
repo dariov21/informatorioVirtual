@@ -1,8 +1,11 @@
 package org.informatorio.site.persist.hibernate;
 
-import org.hibernate.type.StringClobType;
+import org.informatorio.site.model.User;
+import org.hibernate.Session;
+import org.informatorio.site.persist.UserServiceI;
 
-class UserHibernate implements IUser{
+
+class UserHibernate implements UserServiceI{
 
 
     public void addUser(User user){
@@ -19,8 +22,7 @@ class UserHibernate implements IUser{
     }
 
     public User searchUserByName(String name){
-
-
+         return null;
 
     }
 
