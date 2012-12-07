@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+       <bean id="teacher" class="org.informatorio.site.model.Teacher" />
+       <bean id="student" class="org.informatorio.site.model.Student" />
+       <bean id="assistance" class="org.informatorio.site.model.Assistance" />
+       <bean id="course" class="org.informatorio.site.model.Course" />
+       <bean id="enrolled" class="org.informatorio.site.model.Enrolled" />
+       <bean id="forum" class="org.informatorio.site.model.Forum" />
+       <bean id="message" class="org.informatorio.site.model.Message" />
+       <bean id="permission" class="org.informatorio.site.model.Permission" />
+       <bean id="role" class="org.informatorio.site.model.Role" />
+       <bean id="score" class="org.informatorio.site.model.Score" />
+       <bean id="user" class="org.informatorio.site.model.User" />
+
+</beans>
