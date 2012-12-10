@@ -1,3 +1,4 @@
-#Ignoramos las carpetas "target".
+#Archivos ignorados. Guys deben crear un archivo de nombre ".gitignore" y copiar lo que esta aca. Esto deben crear en sus repositorios locales para que dichos archivos aclarados en este documento no se commiteen.
 
 target/
+.idea/
