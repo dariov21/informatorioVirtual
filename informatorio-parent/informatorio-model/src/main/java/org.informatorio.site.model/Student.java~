@@ -2,10 +2,10 @@ package org.informatorio.site.model;
 
 
 public class Student {
-	String name;
-	String surname;
+	string name;
+	string surname;
 	int age;
-	String adress;
+	string adress;
 	int phone;
-	String email; 
+	string email; 
 }
