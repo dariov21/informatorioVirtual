@@ -2,15 +2,20 @@ package org.informatorio.site.model;
 
 
 public class Teacher {
-	String name;
-	String surname;
-	String email;
-	Integer phone;
-    Integer age;
-    String address;
-    Long id;
+	private String name;
+	private String surname;
+	private String email;
+	private Integer phone;
+    private Integer age;
+    private String address;
+    private Long id;
 
     public Teacher() {
+    }
+
+    public Teacher(Long id){
+
+        this.id = id;
     }
 
     public Teacher(String surname, String name, Integer age, String address, String email, Integer phone) {
