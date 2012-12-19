@@ -25,32 +25,30 @@
 		  	<fieldset>
 				<legend>Account Fields</legend>
 				<p>
-					<form:label	for="name" path="name" cssErrorClass="error">Name</form:label><br/>
+					<form:label	for="name" path="name" cssErrorClass="error"><fmt:message key="teacher.name"/></form:label><br/>
 					<form:input path="name"  readonly="true" /> <form:errors path="name" />
 				</p>
 				<p>
-					<form:label for="surName" path="surName" cssErrorClass="error">Balance</form:label><br/>
+					<form:label for="surName" path="surName" cssErrorClass="error"><fmt:message key="teacher.surName"/></form:label><br/>
 					<form:input path="surName"  readonly="true" /> <form:errors path="surName" />
 			   </p>
 			    <p>
-                	<form:label for="age" path="age" cssErrorClass="error">Equity Allocation</form:label><br/>
+                	<form:label for="age" path="age" cssErrorClass="error"><fmt:message key="teacher.age"/></form:label><br/>
                 	<form:input path="age"  readonly="true"/> <form:errors path="age" />
                </p>
 				<p>
-					<form:label for="email" path="email" cssErrorClass="error">Equity Allocation</form:label><br/>
+					<form:label for="email" path="email" cssErrorClass="error"><fmt:message key="teacher.email"/></form:label><br/>
 					<form:input path="email"  readonly="true" /> <form:errors path="email" />
 				</p>
 				<p>
-					<form:label for="address" path="address" cssErrorClass="error">Renewal Date</form:label><br/>
+					<form:label for="address" path="address" cssErrorClass="error"><fmt:message key="teacher.address"/></form:label><br/>
 					<form:input path="address"   readonly="true"/> <form:errors path="address" />
 				</p>
 				<p>
-                	<form:label for="phone" path="phone" cssErrorClass="error">Renewal Date</form:label><br/>
+                	<form:label for="phone" path="phone" cssErrorClass="error"><fmt:message key="teacher.phone"/></form:label><br/>
                 	<form:input path="phone"  readonly="true"/> <form:errors path="phone" />
                 </p>
-				<p>
-					<input type="submit" />
-				</p>
+
 			</fieldset>
 		</form:form>
 	</div>

@@ -14,8 +14,8 @@
     <bean id="teacherArrayService"
           class="org.informatorio.site.persist.array.TeacherArrayService">
     </bean>
-    <bean id="teacherServiceHibernate"
-          class="org.springframework.samples.jpetstore.services.PetStoreServiceImpl">
+    <bean id="teacherHibernateService"
+          class="org.informatorio.site.persist.hibernate.TeacherHibernateService">
     </bean>
 
     <bean id="teacherController"

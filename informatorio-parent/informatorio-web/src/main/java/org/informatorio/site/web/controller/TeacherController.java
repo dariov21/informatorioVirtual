@@ -58,7 +58,7 @@ public class TeacherController {
 
         Teacher teacher = service.getTeacherById(id);
         model.addAttribute(teacher);
-        return "teacher/teacherView";
+        return "teachers/teacherView";
     }
 
 

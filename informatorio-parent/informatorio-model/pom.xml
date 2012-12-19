@@ -11,6 +11,9 @@
       <artifactId>informatorio-parent</artifactId>
       <version>1.0-SNAPSHOT</version>
  </parent>
+ <properties>
+    <java.version>1.6</java.version>
+ </properties>
 
  <dependencies>
 

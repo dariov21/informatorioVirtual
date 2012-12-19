@@ -101,7 +101,14 @@
 			<version>${mockito.version}</version>
 		</dependency>
 
-		<!-- Tomcat -->
+        <dependency>
+            <groupId>jstl</groupId>
+            <artifactId>jstl</artifactId>
+            <version>1.2</version>
+        </dependency>
+
+
+        <!-- Tomcat -->
 		<!--<dependency>
                         <groupId>org.apache.tomcat</groupId>
                         <artifactId>tomcat-catalina</artifactId>

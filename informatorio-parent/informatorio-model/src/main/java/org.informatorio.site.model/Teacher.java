@@ -3,7 +3,7 @@ package org.informatorio.site.model;
 
 public class Teacher {
 	private String name;
-	private String surname;
+	private String surName;
 	private String email;
 	private Integer phone;
     private Integer age;
@@ -15,33 +15,19 @@ public class Teacher {
 
     public Teacher(Long id){
 
-        this.id = id;
+        this.setId(id);
     }
 
     public Teacher(String surname, String name, Integer age, String address, String email, Integer phone) {
-        this.surname = surname;
+        this.surName = surname;
         this.name = name;
-        this.age = age;
-        this.address = address;
-        this.phone = phone;
-        this.email = email;
+        this.setAge(age);
+        this.setAddress(address);
+        this.setPhone(phone);
+        this.setEmail(email);
     }
 
-    public String getSurname() {
-        return surname;
-    }
 
-    public void setSurname(String surname) {
-        this.surname = surname;
-    }
-
-    public Integer getAge(Integer age) {
-        return age;
-    }
-
-    public void setAge(Integer age) {
-        this.age = age;
-    }
 
     public String getName() {
         return name;
@@ -59,4 +45,43 @@ public class Teacher {
         return id;
     }
 
+    public String getSurName() {
+        return surName;
+    }
+
+    public void setSurName(String surName) {
+        this.surName = surName;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer age) {
+        this.age = age;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public Integer getPhone() {
+        return phone;
+    }
+
+    public void setPhone(Integer phone) {
+        this.phone = phone;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
 }

@@ -15,12 +15,21 @@ import java.util.List;
  */
 public class TeacherHibernateService implements TeacherServiceI {
 
-    public List<Teacher> getAllTeacher() {}
-    public List<Teacher> getTeacherByName(String name){}
+    public List<Teacher> getAllTeacher() {
+        return null;
+    }
+    public List<Teacher> getTeacherByName(String name){
+        return null;
+    }
     public Teacher getTeacherById(Long id) throws NoTeacherException{
+        return null;
+    }
+    public boolean save(Teacher teacher){
+        return false;
 
 
     }
-    public boolean save(Teacher teacher){}
-    public boolean delete(Teacher teacher)throws  NoTeacherException{}
+    public boolean delete(Teacher teacher)throws  NoTeacherException{
+        return false;
+    }
 }

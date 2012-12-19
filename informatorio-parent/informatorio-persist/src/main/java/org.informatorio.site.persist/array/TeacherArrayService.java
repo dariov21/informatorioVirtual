@@ -17,13 +17,14 @@ import java.util.List;
 public class TeacherArrayService implements TeacherServiceI{
 
     private static List<Teacher> teachers = null;
+    private static Long id = 0L;
 
     static {
         teachers = new ArrayList<Teacher>();
     }
 
     public List<Teacher> getAllTeacher(){
-        return null;
+        return teachers;
     }
     public List<Teacher> getTeacherByName(String name){
            List<Teacher> aux = new ArrayList<Teacher>();
@@ -35,6 +36,7 @@ public class TeacherArrayService implements TeacherServiceI{
         return aux;
     }
     public boolean save(Teacher teacher){
+        teacher.setId(++id);
         teachers.add(teacher);
         return true;
 
