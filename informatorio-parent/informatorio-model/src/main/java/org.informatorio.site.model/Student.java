@@ -4,7 +4,7 @@ package org.informatorio.site.model;
 public class Student {
 	private String name;
 	private String surname;
-	private Integer age;
+    private Integer age;
 	private String address;
 	private Integer phone;
 	private String email;
@@ -13,13 +13,18 @@ public class Student {
     public Student() {
     }
 
+    public Student(Long id){
+
+        this.setId(id);
+    }
+
     public Student(String surname, String name, Integer age, String address, String email, Integer phone) {
         this.surname = surname;
         this.name = name;
-        this.age = age;
-        this.address = address;
-        this.phone = phone;
-        this.email = email;
+        this.setAge(age);
+        this.setAddress(address);
+        this.setPhone(phone);
+        this.setEmail(email);
     }
 
     public String getSurname() {
@@ -30,7 +35,7 @@ public class Student {
         this.surname = surname;
     }
 
-    public Integer getAge(Integer age) {
+    public Integer getAge() {
         return age;
     }
 
@@ -54,5 +59,28 @@ public class Student {
         return id;
     }
 
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public Integer getPhone() {
+        return phone;
+    }
+
+    public void setPhone(Integer phone) {
+        this.phone = phone;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
 
 }

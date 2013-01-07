@@ -1,11 +1,12 @@
 package org.informatorio.site.persist.exceptions;
 
+
 /**
  * Created with IntelliJ IDEA.
- * User: alumno
- * Date: 12/14/12
- * Time: 9:32 AM
+ * User: nico
+ * Date: 06/01/13
+ * Time: 12:38
  * To change this template use File | Settings | File Templates.
  */
-public class NoTeacherException extends Exception{
+public class NoStudentException extends Exception{
 }
