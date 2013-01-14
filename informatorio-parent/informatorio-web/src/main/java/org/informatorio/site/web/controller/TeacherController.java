@@ -1,6 +1,7 @@
 package org.informatorio.site.web.controller;
 
 import org.informatorio.site.persist.TeacherServiceI;
+import org.informatorio.site.model.Teacher;
 import org.informatorio.site.persist.exceptions.NoTeacherException;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

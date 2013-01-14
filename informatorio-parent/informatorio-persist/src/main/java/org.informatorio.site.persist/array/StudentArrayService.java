@@ -1,6 +1,7 @@
 package org.informatorio.site.persist.array;
 
 import org.informatorio.site.persist.StudentServiceI;
+import org.informatorio.site.model.Student;
 import org.informatorio.site.persist.exceptions.NoStudentException;
 import java.lang.Throwable;
 import java.util.ArrayList;
@@ -28,7 +29,7 @@ public class StudentArrayService implements StudentServiceI{
     }
     public List<Student> getStudentByName(String name){
         List<Student> aux = new ArrayList<Student>();
-        for(TStudent student: students){
+        for(Student student: students){
             if(student.getName().equalsIgnoreCase(name)){
                 aux.add(student);
             }
@@ -41,7 +42,7 @@ public class StudentArrayService implements StudentServiceI{
         return true;
 
     }
-    public boolean delete(Student student) throws NoStudentException {
+    public boolean delete(Student student)throws NoStudentException{
         if(!students.contains(student)){
             throw  new NoStudentException();
         }

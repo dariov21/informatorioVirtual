@@ -13,7 +13,7 @@
          <link rel="stylesheet" href="<c:url value="/resources/blueprint/print.css" />" type="text/css" media="print">
            <!--[if lt IE 8]>
             <link rel="stylesheet" href="<c:url value="/resources/blueprint/ie.css" />" type="text/css" media="screen, projection">
-              <![endif]-->
+           <![endif]-->
                          </head>
                          <body>
                          <div class="container">
@@ -21,31 +21,31 @@
                          		Create Account
                          	</h1>
                          	<div class="span-12 last">
-                         		<form:form modelAttribute="account" action="account" method="post">
+                         		<form:form modelAttribute="student" action="students" method="post">
                          		  	<fieldset>
                          				<legend>Account Fields</legend>
                          				<p>
-                         					<form:label	for="name" path="name" cssErrorClass="error">Name</form:label><br/>
+                         					<form:label	for="name" path="name" cssErrorClass="error"><fmt:message key="student.name"/></form:label><br/>
                          					<form:input path="name" /> <form:errors path="name" />
                          				</p>
                          				<p>
-                         					<form:label for="surname" path="surname" cssErrorClass="error">SurName</form:label><br/>
+                         					<form:label for="surname" path="surname" cssErrorClass="error"><fmt:message key="student.surName"/></form:label><br/>
                          					<form:input path="surname" /> <form:errors path="surname" />
                          				</p>
                          				<p>
-                         					<form:label for="age" path="age" cssErrorClass="error">Age</form:label><br/>
+                         					<form:label for="age" path="age" cssErrorClass="error"><fmt:message key="student.age"/></form:label><br/>
                          					<form:input path="age" /> <form:errors path="age" />
                          				</p>
                          				<p>
-                         					<form:label for="email" path="email" cssErrorClass="error">Email</form:label><br/>
+                         					<form:label for="email" path="email" cssErrorClass="error"><fmt:message key="student.email"/></form:label><br/>
                          					<form:input path="email" /> <form:errors path="email" />
                          				</p>
                          				<p>
-                                            <form:label for="phone" path="phone" cssErrorClass="error">Phone</form:label><br/>
+                                            <form:label for="phone" path="phone" cssErrorClass="error"><fmt:message key="student.phone"/></form:label><br/>
                                             <form:input path="phone" /> <form:errors path="phone" />
                                         </p>
                                         <p>
-                                            <form:label for="address" path="address" cssErrorClass="error">Address</form:label><br/>
+                                            <form:label for="address" path="address" cssErrorClass="error"><fmt:message key="student.address"/></form:label><br/>
                                             <form:input path="address" /> <form:errors path="address" />
                                         </p>
                          				<p>

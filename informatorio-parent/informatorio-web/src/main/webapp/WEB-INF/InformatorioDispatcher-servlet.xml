@@ -11,6 +11,7 @@
 
     <context:component-scan base-package="org.informatorio.site.web.controller"/>
 
+
     <bean id="teacherArrayService"
           class="org.informatorio.site.persist.array.TeacherArrayService">
     </bean>
@@ -21,6 +22,18 @@
     <bean id="teacherController"
           class="org.informatorio.site.web.controller.TeacherController">
         <property name="service" ref="teacherArrayService"/>
+    </bean>
+
+    <bean id="studentArrayService"
+          class="org.informatorio.site.persist.array.StudentArrayService">
+    </bean>
+    <bean id="studentHibernateService"
+          class="org.informatorio.site.persist.hibernate.StudentHibernateService">
+    </bean>
+
+    <bean id="studentController"
+          class="org.informatorio.site.web.controller.StudentController">
+        <property name="service" ref="studentArrayService"/>
     </bean>
 
     <bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">

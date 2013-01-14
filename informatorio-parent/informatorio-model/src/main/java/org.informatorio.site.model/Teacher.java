@@ -1,6 +1,5 @@
 package org.informatorio.site.model;
 
-
 public class Teacher {
 	private String name;
 	private String surName;

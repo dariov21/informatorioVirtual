@@ -2,22 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b38b0c3d-f1bb-467e-8d15-7dfe0a2d8997" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/informatorio-model/src/main/java/org/informatorio/site/dao/StudentDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/informatorio-model/src/main/java/org/informatorio/site/dao/StudentSpringDAO.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/views/teachers/createTeacherForm" afterPath="$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/views/teachers/createTeacherForm.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/informatorio-persist/src/main/java/org.informatorio.site.persist/hibernate/StudentHibernateService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/messages/messages_us.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/views/teachers/createTeacherForm.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/informatorio-model/pom.xml" afterPath="$PROJECT_DIR$/informatorio-model/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/informatorio-model/src/main/java/org.informatorio.site.model/Forum.java" afterPath="$PROJECT_DIR$/informatorio-model/src/main/java/org.informatorio.site.model/Forum.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/informatorio-jbehave/informatorio-jbehave.iml" afterPath="$PROJECT_DIR$/informatorio-jbehave/informatorio-jbehave.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/informatorio-model/informatorio-model.iml" afterPath="$PROJECT_DIR$/informatorio-model/informatorio-model.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/informatorio-model/src/main/java/org.informatorio.site.model/Teacher.java" afterPath="$PROJECT_DIR$/informatorio-model/src/main/java/org.informatorio.site.model/Teacher.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/informatorio-persist/src/main/java/org.informatorio.site.persist/array/TeacherArrayService.java" afterPath="$PROJECT_DIR$/informatorio-persist/src/main/java/org.informatorio.site.persist/array/TeacherArrayService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/informatorio-persist/src/main/java/org.informatorio.site.persist/hibernate/TeacherHibernateService.java" afterPath="$PROJECT_DIR$/informatorio-persist/src/main/java/org.informatorio.site.persist/hibernate/TeacherHibernateService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/informatorio-web/pom.xml" afterPath="$PROJECT_DIR$/informatorio-web/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/informatorio-parent.iml" afterPath="$PROJECT_DIR$/informatorio-parent.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/informatorio-persist/informatorio-persist.iml" afterPath="$PROJECT_DIR$/informatorio-persist/informatorio-persist.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/informatorio-persist/src/main/java/org.informatorio.site.persist/StudentServiceI.java" afterPath="$PROJECT_DIR$/informatorio-persist/src/main/java/org.informatorio.site.persist/StudentServiceI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/informatorio-persist/src/main/java/org.informatorio.site.persist/array/StudentArrayService.java" afterPath="$PROJECT_DIR$/informatorio-persist/src/main/java/org.informatorio.site.persist/array/StudentArrayService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/informatorio-web/informatorio-web.iml" afterPath="$PROJECT_DIR$/informatorio-web/informatorio-web.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/informatorio-web/src/main/java/org/informatorio/site/web/controller/StudentController.java" afterPath="$PROJECT_DIR$/informatorio-web/src/main/java/org/informatorio/site/web/controller/StudentController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/informatorio-web/src/main/java/org/informatorio/site/web/controller/TeacherController.java" afterPath="$PROJECT_DIR$/informatorio-web/src/main/java/org/informatorio/site/web/controller/TeacherController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/InformatorioDispatcher-servlet.xml" afterPath="$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/InformatorioDispatcher-servlet.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/messages/messages.properties" afterPath="$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/messages/messages.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/messages/messages_es.properties" afterPath="$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/messages/messages_es.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/views/teachers/list.jsp" afterPath="$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/views/teachers/list.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/views/teachers/teacherView.jsp" afterPath="$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/views/teachers/teacherView.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/views/students/createStudentForm.jsp" afterPath="$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/views/students/createStudentForm.jsp" />
     </list>
     <ignored path="informatorio-parent.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -84,19 +86,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TeacherController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/informatorio-web/src/main/java/org/informatorio/site/web/controller/TeacherController.java">
+      <file leaf-file-name="createStudentForm.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/views/students/createStudentForm.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="24" selection-start="2189" selection-end="2189" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TeacherServiceI.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/informatorio-persist/src/main/java/org.informatorio.site.persist/TeacherServiceI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="24" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0">
+            <state line="27" column="117" selection-start="1492" selection-end="1492" vertical-scroll-proportion="0.013559322">
               <folding />
             </state>
           </provider>
@@ -108,25 +101,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="131" selection-end="131" vertical-scroll-proportion="-3.5714285">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="teacherView.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/views/teachers/teacherView.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="36" selection-start="2464" selection-end="2478" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InformatorioDispatcher-servlet.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/InformatorioDispatcher-servlet.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="46" selection-start="1315" selection-end="1315" vertical-scroll-proportion="0.0">
+            <state line="10" column="26" selection-start="267" selection-end="267" vertical-scroll-proportion="-6.818182">
               <folding />
             </state>
           </provider>
@@ -138,34 +113,28 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="112" selection-end="112" vertical-scroll-proportion="-3.5714285">
+            <state line="1" column="10" selection-start="0" selection-end="268" vertical-scroll-proportion="-0.6818182">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TeacherArrayService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/informatorio-persist/src/main/java/org.informatorio.site.persist/array/TeacherArrayService.java">
+      <file leaf-file-name="InformatorioDispatcher-servlet.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/InformatorioDispatcher-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="28" selection-start="1079" selection-end="1079" vertical-scroll-proportion="0.0">
+            <state line="39" column="71" selection-start="1707" selection-end="1707" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.jsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/views/teachers/list.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="835" selection-end="835" vertical-scroll-proportion="0.6569343">
-              <folding />
-            </state>
+      <file leaf-file-name="messages_us.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/messages/messages_us.properties">
+          <provider editor-type-id="ResourceBundle">
+            <state />
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Teacher.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/informatorio-model/src/main/java/org.informatorio.site.model/Teacher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0">
+            <state line="4" column="28" selection-start="111" selection-end="111" vertical-scroll-proportion="-2.7272727">
               <folding />
             </state>
           </provider>
@@ -174,7 +143,34 @@
       <file leaf-file-name="createTeacherForm.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/views/teachers/createTeacherForm.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="77" selection-start="1136" selection-end="1169" vertical-scroll-proportion="0.0">
+            <state line="49" column="96" selection-start="2297" selection-end="2297" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="teacherView.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/views/teachers/teacherView.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="33" selection-start="0" selection-end="2621" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Teacher.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/informatorio-model/src/main/java/org.informatorio.site.model/Teacher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="13" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TeacherController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/informatorio-web/src/main/java/org/informatorio/site/web/controller/TeacherController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="18" selection-start="961" selection-end="961" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -193,40 +189,96 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/informatorio-model/src/main/java/org.informatorio.site.model/Forum.java" />
-        <option value="$PROJECT_DIR$/informatorio-model/pom.xml" />
-        <option value="$PROJECT_DIR$/informatorio-persist/src/main/java/org.informatorio.site.persist/hibernate/TeacherHibernateService.java" />
-        <option value="$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/views/teachers/createTeacherForm" />
-        <option value="$PROJECT_DIR$/informatorio-persist/pom.xml" />
-        <option value="$PROJECT_DIR$/informatorio-web/pom.xml" />
-        <option value="$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/views/teachers/list.jsp" />
-        <option value="$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/views/teachers/createTeacherFrom.jsp" />
-        <option value="$PROJECT_DIR$/informatorio-model/src/main/java/org.informatorio.site.model/Teacher.java" />
         <option value="$PROJECT_DIR$/informatorio-persist/src/main/java/org.informatorio.site.persist/array/TeacherArrayService.java" />
-        <option value="$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/views/teachers/createTeacherForm.jsp" />
-        <option value="$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/messages/messages.properties" />
-        <option value="$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/messages/messages_es.properties" />
+        <option value="$PROJECT_DIR$/informatorio-model/src/main/java/org.informatorio.site.model/Course.java" />
+        <option value="$PROJECT_DIR$/informatorio-persist/src/main/java/org.informatorio.site.persist/TeacherServiceI.java" />
+        <option value="$PROJECT_DIR$/informatorio-model/src/main/java/org.informatorio.site.model/Teacher.java" />
+        <option value="$PROJECT_DIR$/informatorio-web/src/main/java/org/informatorio/site/web/controller/StudentController.java" />
         <option value="$PROJECT_DIR$/informatorio-web/src/main/java/org/informatorio/site/web/controller/TeacherController.java" />
-        <option value="$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/views/teachers/teacherView.jsp" />
+        <option value="$PROJECT_DIR$/informatorio-persist/src/main/java/org.informatorio.site.persist/hibernate/StudentHibernateService.java" />
+        <option value="$PROJECT_DIR$/informatorio-persist/src/main/java/org.informatorio.site.persist/array/StudentArrayService.java" />
+        <option value="$PROJECT_DIR$/informatorio-persist/src/main/java/org.informatorio.site.persist/StudentServiceI.java" />
+        <option value="$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/views/teachers/createTeacherForm.jsp" />
+        <option value="$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/messages/messages_es.properties" />
+        <option value="$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/messages/messages.properties" />
+        <option value="$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/messages/messages_us.properties" />
+        <option value="$PROJECT_DIR$/applicationContext.xml" />
         <option value="$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/InformatorioDispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/views/students/createStudentForm.jsp" />
       </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="keepSourceFolders" value="false" />
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Informatorio Spring MVC Project" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Informatorio Spring MVC Project" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
   <component name="MavenRunner">
-    <option name="jreName" value="#JAVA_INTERNAL" />
+    <option name="jreName" value="#JAVA_HOME" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
+    <option name="x" value="65" />
     <option name="y" value="24" />
-    <option name="width" value="1368" />
-    <option name="height" value="721" />
+    <option name="width" value="959" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -254,16 +306,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -442,6 +484,44 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="students" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="informatorio-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="informatorio-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="informatorio-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="messages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -473,6 +553,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -537,6 +621,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -730,6 +818,164 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="informatorio-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="informatorio-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="informatorio-jbehave" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="informatorio-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="informatorio-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="informatorio-jbehave" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="informatorio-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="informatorio-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="informatorio-jbehave" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="informatorio-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="informatorio-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="informatorio-jbehave" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groovy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jbehave" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="steps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="informatorio-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="informatorio-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="informatorio-jbehave" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groovy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jbehave" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configuration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyReporterBuilder.groovy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="informatorio-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="informatorio-parent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -737,12 +983,14 @@
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="RESOURCE_BUNDLE_SPLITTER_PROPORTION" value="0.5" />
-    <property name="options.lastSelected" value="project.propCompiler" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="preferences.externalResources" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="project.structure.side.proportion" value="0.30199766" />
+    <property name="project.structure.side.proportion" value="0.22946545" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
@@ -757,7 +1005,32 @@
       <recent name="$PROJECT_DIR$/informatorio-model/src/main/java/org.informatorio.site.model" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Maven.informatorio-parent [compile]">
+    <configuration default="false" name="informatorio-parent [compile]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="compile" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -766,6 +1039,32 @@
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
         <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="false" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -875,7 +1174,29 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <list size="0" />
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Maven.informatorio-parent [compile]" />
+    </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -909,26 +1230,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="24" width="1368" height="721" extended-state="6" />
-    <editor active="true" />
+    <frame x="65" y="24" width="959" height="744" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867134" sideWeight="0.4969651" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13986014" sideWeight="0.49772382" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3237774" sideWeight="0.49669603" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3237774" sideWeight="0.4955947" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.6762226" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3989071" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3657056" sideWeight="0.86013985" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37334803" sideWeight="0.6762226" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277311" sideWeight="0.5181518" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32715008" sideWeight="0.41629955" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.6728499" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -987,66 +1310,73 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/informatorio-persist/src/main/java/org.informatorio.site.persist/exceptions/NoStudentException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="44" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0">
+        <state line="10" column="13" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/informatorio-model/src/main/java/org.informatorio.site.model/Forum.java">
+    <entry file="file://$PROJECT_DIR$/informatorio-persist/src/main/java/org.informatorio.site.persist/exceptions/NoTeacherException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="9" column="13" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/informatorio-persist/src/main/java/org.informatorio.site.persist/TeacherServiceI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="63" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/informatorio-model/pom.xml">
+    <entry file="file://$PROJECT_DIR$/informatorio-persist/src/main/java/org.informatorio.site.persist/StudentServiceI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="12" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="14" column="60" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/informatorio-persist/src/main/java/org.informatorio.site.persist/hibernate/TeacherHibernateService.java">
+    <entry file="file://$PROJECT_DIR$/informatorio-persist/src/main/java/org.informatorio.site.persist/array/StudentArrayService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="21" selection-start="877" selection-end="877" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="46" column="58" selection-start="1304" selection-end="1304" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#825#834#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/informatorio-persist/pom.xml">
+    <entry file="file://$PROJECT_DIR$/informatorio-web/src/main/java/org/informatorio/site/web/controller/TeacherController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="21" selection-start="2234" selection-end="2234" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/informatorio-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="24" selection-start="2891" selection-end="2891" vertical-scroll-proportion="0.0">
+        <state line="28" column="18" selection-start="961" selection-end="961" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/informatorio-model/src/main/java/org.informatorio.site.model/Teacher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0">
+        <state line="2" column="13" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/views/teachers/teacherView.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="33" selection-start="0" selection-end="2621" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/informatorio-persist/src/main/java/org.informatorio.site.persist/TeacherServiceI.java">
+    <entry file="file://$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/views/teachers/createTeacherForm.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="24" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/informatorio-persist/src/main/java/org.informatorio.site.persist/array/TeacherArrayService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="28" selection-start="1079" selection-end="1079" vertical-scroll-proportion="0.0">
+        <state line="49" column="96" selection-start="2297" selection-end="2297" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1056,35 +1386,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="131" selection-end="131" vertical-scroll-proportion="-3.5714285">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/informatorio-web/src/main/java/org/informatorio/site/web/controller/TeacherController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="24" selection-start="2189" selection-end="2189" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/views/teachers/createTeacherForm.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="77" selection-start="1136" selection-end="1169" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/views/teachers/teacherView.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="36" selection-start="2464" selection-end="2478" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/InformatorioDispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="46" selection-start="1315" selection-end="1315" vertical-scroll-proportion="0.0">
+        <state line="10" column="26" selection-start="267" selection-end="267" vertical-scroll-proportion="-6.818182">
           <folding />
         </state>
       </provider>
@@ -1094,14 +1396,45 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="112" selection-end="112" vertical-scroll-proportion="-3.5714285">
+        <state line="1" column="10" selection-start="0" selection-end="268" vertical-scroll-proportion="-0.6818182">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/views/teachers/list.jsp">
+    <entry file="file://$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/messages/messages_us.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="835" selection-end="835" vertical-scroll-proportion="0.6569343">
+        <state line="4" column="28" selection-start="111" selection-end="111" vertical-scroll-proportion="-2.7272727">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="52" selection-start="53" selection-end="96" vertical-scroll-proportion="0.050847456">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="42" selection-start="81" selection-end="81" vertical-scroll-proportion="0.050847456">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/InformatorioDispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="71" selection-start="1707" selection-end="1707" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/informatorio-web/src/main/webapp/WEB-INF/views/students/createStudentForm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="117" selection-start="1492" selection-end="1492" vertical-scroll-proportion="0.013559322">
           <folding />
         </state>
       </provider>
@@ -1115,7 +1448,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.22946545" />
               </list>
             </option>
           </splitter-proportions>
@@ -1127,7 +1460,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.6034682" />
+                <option value="0.22946545" />
               </list>
             </option>
           </splitter-proportions>
@@ -1138,7 +1471,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.22946545" />
               </list>
             </option>
           </splitter-proportions>
@@ -1150,7 +1483,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.30769232" />
+                <option value="0.22946545" />
               </list>
             </option>
           </splitter-proportions>
@@ -1158,11 +1491,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>informatorio-web</last-edited>
+          <last-edited>informatorio-parent</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.29847237" />
+                <option value="0.22946545" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1186,7 +1520,18 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.6034682" />
+                <option value="0.22946545" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
